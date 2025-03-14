@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+main {
+  margin: 0 auto;
+  width: 60%;
+}
+
+#todos {
+  display: flex;
+  justify-content: center;
+  background-color: #343434;
+  padding: 14px 20px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 34px -1px rgba(0, 0, 0, 0.185);
+}
+
+label {
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: white;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.input div {
+  width: 100%;
+}
+
+#titleField,
+#descField {
+  font-size: 1.5rem;
+  outline: none;
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: all 0.9s ease-in-out;
+}
+
+#titleField:hover,
+#descField:hover {
+  border-radius: 20px;
+}
+
+.addtask {
+  font-size: 1.8rem;
+  background-color: #00e47dd4;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 13px;
+  border: none;
+  box-shadow: 1px 2px 10px 1px #00e47d8e;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+}
+
+.addtask:hover {
+  transform: rotate(10deg);
+}
+
+.addtask:focus {
+  transform: rotate(10deg);
+  outline: 2px solid rgb(255, 255, 255);
+}
+
+.separteline {
+  width: 100%;
+  margin: 30px auto;
+  background-color: rgb(94, 86, 86);
+  height: 1px;
+}
+
+.filterSec {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #00e47c;
+}
+
+.filterText {
+  font-size: 2.5rem;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#filterOptions {
+  border-radius: 10px;
+  width: 180px;
+  padding: 10px 6px;
+  font-size: 1.6rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #00e47c;
+  outline: none;
+}
+
+#filterOptions:focus {
+  border: none;
+  outline: 1px solid rgb(255, 255, 255);
+}
+
+#filterOptions option {
+  background-color: #fff;
+  color: #333333;
+  font-size: 1.6rem;
+}
+
+.custom-button {
+  font-size: 1.5rem;
+  width: 100px;
+  color: white;
+  background-color: #00e47c;
+  transition: all 1s ease-in;
+}
+
+.custom-swal {
+  top: 40% !important;
+}

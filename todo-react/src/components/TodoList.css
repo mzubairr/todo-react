@@ -1,0 +1,86 @@
+.noTodo {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  margin-top: 30px;
+}
+
+.todoTask {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #343434;
+}
+
+.taskQue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 2.2rem;
+}
+
+#check {
+  accent-color: #2ad17e;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.taskPara {
+  padding: 2px;
+  max-width: 550px;
+  text-align: justify;
+  word-break: break-word;
+}
+
+.title {
+  color: #2ad17e;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+}
+
+.description {
+  color: #c3b6b8;
+  font-family: system-ui, sans-serif;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.icons {
+  font-size: 2.5rem;
+  display: flex;
+  gap: 20px;
+}
+
+.deleteIcon:hover,
+.editIcon:hover {
+  transform: translateY(-10px);
+}
+
+.editIcon {
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.deleteIcon {
+  background: linear-gradient(360deg, #21db7e, #d44d66);
+  background-clip: text;
+  color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.editIcon,
+.deleteIcon {
+  cursor: pointer;
+}
+
+.line {
+  text-decoration: line-through;
+  color: rgb(132, 121, 121);
+}

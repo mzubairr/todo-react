@@ -1,0 +1,35 @@
+@media (max-width: 700px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 90%;
+  }
+
+  .addtask {
+    width: 100%;
+  }
+
+  .input {
+    flex-wrap: wrap;
+  }
+
+  .filterSec {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 270px) {
+  .taskQue {
+    font-size: 1.9rem;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .icons {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
